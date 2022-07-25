@@ -1,0 +1,141 @@
+body{
+    line-height: 25px;
+    text-align: center;
+    background: gainsboro;
+  }
+  #header{
+      display: flex;
+      margin-top: -10px !important;
+      margin-bottom: 500px;
+      width: 99%;
+      justify-content: left;
+      position: fixed !important;
+      background: gainsboro !important;
+      font-size: 10px;
+  }
+  #header-img{
+      width: 80px ;
+      height: 80px;
+      margin-left: 40px;
+      align-items: center;
+      border-radius: 50%;
+    } 
+  #nav-bar{
+      display: flex;
+      justify-content: right;
+      width: 99%;
+      margin-right: 40px;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .nav-link{
+        display: flex;
+        justify-content: right;
+        margin: 9px;
+        color: black;
+        text-decoration: none;
+    }
+    #box{
+      align-content: flex-end;
+      margin: 0px 50px 200px 50px;
+      padding-top: 100px;
+    }
+    #form{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 90px;
+    }
+    #label-email{
+         margin: auto;
+    }
+    #email{
+      border: solid 2px grey;
+      border-radius: 3px;
+      width: 250px;
+      height: 25px;
+      margin: auto;
+    }
+    #label-submit{
+         margin: auto;
+    }
+    #submit{
+      border: solid 2px grey;
+      border-radius: 3px;
+      background-color: rgba(247, 36, 36, 0.788);
+      width: 100px;
+      height: 24px;
+      cursor: pointer;
+    }
+  #servicios{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  #servicios2{
+    line-height: 15px;
+    font-size: auto;
+  }
+  #imgs{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    justify-content: space-around;
+  }
+  #img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+  }
+  #produt{
+       margin-top:90px;
+       display:flex;
+       justify-content: center;
+       gap: 15px;
+  }
+  #produt1{
+       border: solid 2px red;
+       width: 300px;
+       height: 300px;
+       margin: auto;
+       box-shadow: 0 0 10px black;
+       text-align: center;
+  }
+  #produt2{
+       border: solid 2px red;
+       width: 300px;
+       height: 300px;
+       margin: auto;
+       box-shadow: 0 0 10px black;
+       text-align: center;
+  }
+  #produt3{
+       border: solid 2px red;
+       width: 300px;
+       height: 300px;
+       margin: auto;
+       box-shadow: 0 0 10px black;
+       text-align: center;
+  }
+  #compra{
+      border: solid 2px grey;
+      border-radius: 3px;
+      background-color: rgba(247, 36, 36, 0.788);
+      width: 100px;
+      height: 24px;
+      cursor: pointer;
+    }
+  #a:hover{
+    color: black;
+  }
+  #submit:hover{
+    background: rgba(247, 36, 36, 0.705);
+    box-shadow: 0 0 10px rgba(247, 36, 36, 0.863);
+  }
+  #compra:hover{
+    background: rgba(247, 36, 36, 0.705);
+    box-shadow: 0 0 10px rgba(247, 36, 36, 0.863);
+  }
+  @media(min-width: 100px) {}
